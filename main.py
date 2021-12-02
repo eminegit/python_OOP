@@ -28,6 +28,8 @@ class MyDog:
     def wake_up(self):
         self.isAsleep = False
         print(f"{self.name} is waking up")
+    def info(self):
+        print(f"Bread: {self.breed}, Name: {self.name}, Color: {self.color}")
 
 
 
@@ -36,6 +38,8 @@ dog1.walk()
 dog1.eat()
 dog1.sleep()
 dog1.wake_up()
+dog1.info()
 
 # This is the changes I made in the feature branch
+#
 
