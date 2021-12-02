@@ -29,7 +29,7 @@ class MyDog:
         self.isAsleep = False
         print(f"{self.name} is waking up")
     def info(self):
-        print(f"Bread: {self.breed}, Name: {self.name}, Color: {self.color}")
+        print(f"Breed: {self.breed}, Name: {self.name}, Color: {self.color}")
 
 
 
